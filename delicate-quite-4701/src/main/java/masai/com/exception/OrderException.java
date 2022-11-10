@@ -1,5 +1,15 @@
-package masai.com.exception;
+package com.masai.exception;
 
-public class OrderException {
+
+
+public class OrderException extends Exception {
+	
+	public OrderException() {
+		
+	}
+	
+public OrderException(String msg) {
+		super(msg);
+	}
 
 }
