@@ -1,5 +1,18 @@
 package masai.com.exception;
 
-public class PlantException {
+import lombok.NoArgsConstructor;
 
+
+@NoArgsConstructor
+public class PlantException extends Exception {
+	
+	public PlantException(String message) {
+		super(message);
+		
+	}
+
+	
+	
+	
 }
+
