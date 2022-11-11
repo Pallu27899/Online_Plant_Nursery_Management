@@ -1,6 +1,6 @@
 #  Online Plant Nursery Management (GoGreen)
 
-<img align="left" alt="Coding" width="150" src="Image/logo.jpg">
+<img align="left" alt="Coding" width="160" src="Image/logo.jpg">
 
 We made a Backend Application to Perform CRUD Operation and Made RestFul APIs Service Using java, SpringBoot, lombok and swagger-UI for Nursery Plant Application.In this project customer can signup, login, see planters,plants and seeds. Customer can order multiple orders with multiple plants,planters and seeds. Admin can Manage or can do CRUD Operation On Plants, Seeds, Planters and Customers.
 
