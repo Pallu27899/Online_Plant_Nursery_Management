@@ -48,7 +48,7 @@ public class Plant {
 	private Integer plantStock;
 	
 	@NotNull
-	private double plantCost;
+	private Integer plantCost;
 	
 
 }
