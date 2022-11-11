@@ -1,9 +1,21 @@
 package masai.com.repository;
 
+
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
 
 import masai.com.model.Seed;
 
-public interface SeedDao extends JpaRepository<Seed, Integer> {
+@Repository
+public interface SeedDao extends JpaRepository<Seed, Integer>{
 
+	
+	@Query("select s from Seed s where s.commonName = ?1")
+	public List<Seed> getSeedBycommonName(String commonName);
+	
+	@Query("select s from Seed s where s.typeOfSeeds = ?1")
+     public List<Seed> getSeedBytypeOfSeeds(String typeOfSeeds);
+
+	 
 }
