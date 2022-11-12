@@ -31,6 +31,11 @@ ________________________________________________________________________________
 * Planters Module
 * Seeds Module
 
+# Entity RelationShip Diagram 
+
+
+<img  alt="ER dia" src="Image/ERdia.jpg">
+
 # Features 🌱
 
 * User and Admin authentication & validation with session uuid.
