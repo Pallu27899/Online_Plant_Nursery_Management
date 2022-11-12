@@ -31,7 +31,7 @@ ________________________________________________________________________________
 * Planters Module
 * Seeds Module
 
-# Entity RelationShip Diagram 
+# Entity RelationShip Diagram 🌱
 
 
 <img  alt="ER dia" src="Image/ERdia.jpg">
