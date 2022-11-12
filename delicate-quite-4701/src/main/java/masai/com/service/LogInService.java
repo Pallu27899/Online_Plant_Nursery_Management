@@ -1,5 +1,14 @@
 package masai.com.service;
 
-public class LogInService {
+import masai.com.exception.LogInException;
+import masai.com.model.LogInData;
+
+public interface LogInService {
+	
+	
+
+	public String logInAccount(LogInData loginData)throws LogInException ;
+	public String logOutFromAccount(String key) throws LogInException;
+
 
 }
