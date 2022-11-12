@@ -1,4 +1,4 @@
-#  Online Plant Nursery Management (GoGreen)
+#  Online Plant Nursery Management 🌱 (GoGreen) 🌱
 
 <img align="left" alt="Coding" width="153" src="Image/logo.jpg">
 
@@ -10,7 +10,7 @@ This project is developed by team of 5 Back-end Developers during construct week
 
 ___________________________________________________________________________________________________________________________________________________________
 
-# Tech Stacks:
+# Tech Stacks: 🌱
 
 * Java
 * Spring Boot
@@ -21,7 +21,7 @@ ________________________________________________________________________________
 * SpringData Jpa
 * Hibernate
 
-# Modules
+# Modules 🌱
 
 * Login, Logout Module
 * Admin Module
@@ -29,7 +29,7 @@ ________________________________________________________________________________
 * Planters Module
 * Seeds Module
 
-# Features
+# Features 🌱
 
 * User and Admin authentication & validation with session uuid.
 
@@ -47,7 +47,7 @@ ________________________________________________________________________________
 
 
 
-# Installation & Run
+# Installation & Run 🌱
 
 Before running the API server, you should update the database config inside the application.properties file.
 
@@ -66,7 +66,7 @@ API Root Endpoint https://localhost:8800/
 * Enjoyed the process of learning and creating the product.
 
 
-# Contributors
+# Contributors 🌱
 
 * [Pallavi Bobale](https://github.com/Pallu27899) (Team Lead)
 * [Nafisa Parveen](https://github.com/Nafisa1117)
