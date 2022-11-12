@@ -11,7 +11,7 @@ import masai.com.model.Planter;
 @Repository
 public interface PlanterDao extends JpaRepository<Planter, Integer> {
 	
-	@Query("select p from Planter p where p.plantershape = ?1")
+	@Query("select p from Planter p where p.planterShape = ?1")
 	public Planter viewPlanterByPlanterShape(String planterShape);
 	
 	@Query("select p from Planter p where p.planterCost BETWEEN ?1 AND ?2")
