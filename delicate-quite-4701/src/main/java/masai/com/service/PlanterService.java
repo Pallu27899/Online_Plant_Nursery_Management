@@ -19,7 +19,7 @@ public interface PlanterService {
 	
 	public List<Planter> viewAllPlanters() throws PlanterException;
 	
-	public List<Planter> viewAllPlantersByCost(double minCost, double maxCost) throws PlanterException;
+	public List<Planter> viewAllPlantersByCost(Integer minCost, Integer maxCost) throws PlanterException;
 	
 
 }
