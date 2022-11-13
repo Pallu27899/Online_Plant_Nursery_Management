@@ -14,7 +14,7 @@ public class OrderDTO {
 	private Integer planterId;
 	private Integer plantId;
 	private Integer seedId;
-	private String transactionMode;
+	
 	private Integer customerId;
 
 }
