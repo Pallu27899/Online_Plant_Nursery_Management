@@ -126,7 +126,7 @@ public class PlanterServiceImpl implements PlanterService {
 	
 //	--------------------------View Planter List by with MinMaxCost--------------------------------------
 	@Override
-	public List<Planter> viewAllPlantersByCost(double minCost, double maxCost) throws PlanterException {
+	public List<Planter> viewAllPlantersByCost(Integer minCost, Integer maxCost) throws PlanterException {
 		
 		List<Planter> servicePlanterList = pDao.viewAllPlantersByCost(minCost, maxCost);
 		
