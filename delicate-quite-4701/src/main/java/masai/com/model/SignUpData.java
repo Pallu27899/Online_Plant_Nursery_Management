@@ -16,7 +16,6 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 @Inheritance(strategy=InheritanceType.JOINED)
-@Table(name="users")
 public class SignUpData {
 
 	@Id
