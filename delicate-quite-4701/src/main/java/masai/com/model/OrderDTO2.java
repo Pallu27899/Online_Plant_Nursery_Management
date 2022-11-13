@@ -19,6 +19,6 @@ public class OrderDTO2 {
 	private Integer quantity;
 	private Integer totalPrice;
 	private LocalDate orderDate;
-	private String transactionMode;
+
 
 }
