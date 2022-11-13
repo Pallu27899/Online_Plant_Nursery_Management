@@ -49,12 +49,12 @@ public class OrderServiceImpl implements OrderService {
 		newOrder.setCustomerId(order.getCustomerId());
 		newOrder.setQuantity(1);
 		newOrder.setOrderDate(LocalDate.now());
-		newOrder.setTransactionMode(order.getTransactionMode());
+		
 		
 		Integer totalPrice = 0;
 		
 		if(order.getPlanterId() != null) {
-			Planter planter = pDao.findById(order.getCustomerId()).orElseThrow(()-> new OrderException("No planter found"));
+			Planter planter = pDao.findById(order.getPlanterId()).orElseThrow(()-> new OrderException("No planter found"));
 			
 			List<Planter> planters = Arrays.asList(planter);
 			newOrder.setPlanters(planters);
