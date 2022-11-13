@@ -31,7 +31,7 @@ public class Orders {
 	
 	private Integer totalCost;
 	
-	private String transactionMode;
+	
 	
 	private LocalDate orderDate;
 	
