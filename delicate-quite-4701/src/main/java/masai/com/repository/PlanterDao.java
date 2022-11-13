@@ -15,7 +15,7 @@ public interface PlanterDao extends JpaRepository<Planter, Integer> {
 	public Planter viewPlanterByPlanterShape(String planterShape);
 	
 	@Query("select p from Planter p where p.planterCost BETWEEN ?1 AND ?2")
-     public List<Planter> viewAllPlantersByCost(double minCost, double maxCost);
+     public List<Planter> viewAllPlantersByCost(Integer minCost, Integer maxCost);
 	
 
 }
