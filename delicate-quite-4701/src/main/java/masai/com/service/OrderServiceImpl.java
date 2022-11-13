@@ -82,7 +82,7 @@ public class OrderServiceImpl implements OrderService {
 		
 		OrderDTO2 odt2 = new OrderDTO2();
 		odt2.setOrderId(savedOrder.getOrderId());
-		odt2.setTransactionMod(savedOrder.getTransactionMode());
+		odt2.setTransactionMode(savedOrder.getTransactionMode());
 		odt2.setTotalPrice(savedOrder.getTotalCost());
 		odt2.setOrderDate(savedOrder.getOrderDate());
 		odt2.setQuantity(1);
