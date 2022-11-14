@@ -117,7 +117,15 @@ public class OrderServiceImpl implements OrderService {
 	@Override
 	public Orders deleteOrder(Integer orderId) throws OrderException {
 		
-		 return orderRepo.findById(orderId).orElseThrow(()-> new OrderException("No order found with Order Id "+ orderId));		
+		// return orderRepo.findById(orderId).orElseThrow(()-> new OrderException("No order found with Order Id "+ orderId));	
+		
+		Optional<Orders> opt = orderRepo.findById(orderId);
+		 if(!opt.isPresent()) throw new OrderException("No orders is made with this OrderId");
+		 else {
+			 Orders res =opt.get();
+			 orderRepo.delete(res);
+			 return res;
+		 }
 	}
 
 	@Override
